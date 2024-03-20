@@ -12,7 +12,7 @@ app.use(cors());
 
 // MongoDB connection URI
 // const mongoURI = 'mongodb://localhost:27017/ankit2234'; // Replace 'your_database_name' with your actual database name
-const mongoURL = 'mongodb+srv://u22cs033:<Ankit@8340>@cluster0.irybj9t.mongodb.net/?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://harshal_050:Harshal%402772@cluster0.hchtgxj.mongodb.net/dynamic-chat-app?retryWrites=true&w=majority';
 // Function to connect to MongoDB
 async function connectToMongoDB() {
   const client = new MongoClient(mongoURI, { useUnifiedTopology: true });
@@ -25,6 +25,8 @@ async function connectToMongoDB() {
     // Access the database and collection
     const database = client.db('ankit2234'); // Replace 'your_database_name' with your actual database name
     const collection = database.collection('products'); // Replace 'products' with your actual collection name
+
+    console.log('Connected to MonkjfdauidgfyudggoDB');
 
     // Initialize or retrieve products in case they don't exist
     let products = await collection.find().toArray();
