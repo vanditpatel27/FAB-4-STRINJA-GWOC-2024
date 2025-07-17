@@ -1,7 +1,6 @@
 
-# Project Title
 
-Strinja
+## Strinja
 
 Develop a website for art enthusiasts to explore a diverse collection of
 captivating artworks, offering an immersive experience beyond the confines of a
@@ -9,11 +8,11 @@ traditional gallery setting.
 
 
 
-## Authors
 
-Team name : FAB-4
 
-Team members name:
+## Team name : FAB-4
+
+## Team members name:
 
 1)Vandit Patel
 
