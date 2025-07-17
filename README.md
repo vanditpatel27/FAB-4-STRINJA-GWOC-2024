@@ -3,6 +3,9 @@
 
 Strinja
 
+Develop a website for art enthusiasts to explore a diverse collection of
+captivating artworks, offering an immersive experience beyond the confines of a
+traditional gallery setting.
 
 
 
